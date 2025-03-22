@@ -1,1 +1,4 @@
-@import "tailwindcss";
+/** @format */
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
