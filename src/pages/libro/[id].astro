@@ -31,7 +31,7 @@ const { Content } = await render(book)
         >🔙 Volver</a
       >
       <img
-        transition:name={`img-${book.slug}`}
+        data-transition-name={`img-${book.slug}`}
         class='rounded w-72 h-auto'
         src={`/${img}`}
         alt={title}

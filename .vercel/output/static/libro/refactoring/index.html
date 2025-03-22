@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="es" data-astro-cid-sckkx6r4> <head><meta charSet="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Refactoring - Dev Books</title><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CMTcOisY.js"></script><link rel="stylesheet" href="/_astro/index.C3rGrCw-.css"></head> <body className="p-20" data-astro-cid-sckkx6r4> <div className="container" data-astro-cid-sckkx6r4>  <div class="flex gap-12"> <aside class="flex flex-col items-center gap-4"> <a href="/" class="hover:underline opacity-70">🔙 Volver</a> <img data-transition-name="img-refactoring" class="rounded w-72 h-auto" src="/refactoring.jpg" alt="Refactoring"> <!--[if astro]>server-island-start<![endif]--><span class="text-xs opacity-70">Cargando puntuación</span><link rel="preload" as="fetch" href="/_server-islands/BookScore?e=default&p=F42354CF70850DDE580BFAE9FAp2PIcwVSapR3W01Oavo%2FYTuiZWDhWprkExrKXFIaISWCOx&s=%7B%7D" crossorigin="anonymous"><script async type="module" data-island-id="49755f1a-db02-4e37-874d-4e13a73e7830">
+let script = document.querySelector('script[data-island-id="49755f1a-db02-4e37-874d-4e13a73e7830"]');
+
+let response = await fetch('/_server-islands/BookScore?e=default&p=F42354CF70850DDE580BFAE9FAp2PIcwVSapR3W01Oavo%2FYTuiZWDhWprkExrKXFIaISWCOx&s=%7B%7D');
+
+if (script) {
+	if(
+		response.status === 200 
+		&& response.headers.has('content-type') 
+		&& response.headers.get('content-type').split(";")[0].trim() === 'text/html') {
+		let html = await response.text();
+	
+		// Swap!
+		while(script.previousSibling &&
+			script.previousSibling.nodeType !== 8 &&
+			script.previousSibling.data !== '[if astro]>server-island-start<![endif]') {
+			script.previousSibling.remove();
+		}
+		script.previousSibling?.remove();
+	
+		let frag = document.createRange().createContextualFragment(html);
+		script.before(frag);
+	}
+	script.remove();
+}
+</script> <!--[if astro]>server-island-start<![endif]--><link rel="preload" as="fetch" href="/_server-islands/BuyButton?e=default&p=B4064A9EAEC418C780CC61D1yFIuCmGZ337DFAz7i66rkYseSUTKNVxjmZpOb%2F5fRlR7VNcRUlQFNQAzF65HjyQSQvAY13x7igRLMsYyed4Y9LOIb8hCff%2B8B6eQVyp87Wf5mnaYO10Esf9cYtSYzygxaYQliAT9PqjlI%2BHM1H%2F5%2BqfWT4c3PuNQHjs7&s=%7B%7D" crossorigin="anonymous"><script async type="module" data-island-id="4a40861c-dda8-4952-8854-6c74d1a72b15">
+let script = document.querySelector('script[data-island-id="4a40861c-dda8-4952-8854-6c74d1a72b15"]');
+
+let response = await fetch('/_server-islands/BuyButton?e=default&p=B4064A9EAEC418C780CC61D1yFIuCmGZ337DFAz7i66rkYseSUTKNVxjmZpOb%2F5fRlR7VNcRUlQFNQAzF65HjyQSQvAY13x7igRLMsYyed4Y9LOIb8hCff%2B8B6eQVyp87Wf5mnaYO10Esf9cYtSYzygxaYQliAT9PqjlI%2BHM1H%2F5%2BqfWT4c3PuNQHjs7&s=%7B%7D');
+
+if (script) {
+	if(
+		response.status === 200 
+		&& response.headers.has('content-type') 
+		&& response.headers.get('content-type').split(";")[0].trim() === 'text/html') {
+		let html = await response.text();
+	
+		// Swap!
+		while(script.previousSibling &&
+			script.previousSibling.nodeType !== 8 &&
+			script.previousSibling.data !== '[if astro]>server-island-start<![endif]') {
+			script.previousSibling.remove();
+		}
+		script.previousSibling?.remove();
+	
+		let frag = document.createRange().createContextualFragment(html);
+		script.before(frag);
+	}
+	script.remove();
+}
+</script> </aside> <main class="max-w-3xl"> <h1 class="text-4xl font-bold mb-4">Hola id Refactoring</h1> <div class="prose prose-invert"><p>Martin Fowler’s guide to reworking bad code into well-structured code</p>
+<p>Refactoring improves the design of existing code and enhances software maintainability, as well as making existing code easier to understand. Original Agile Manifesto signer and software development thought leader, Martin Fowler, provides a catalog of refactorings that explains why you should refactor; how to recognize code that needs refactoring; and how to actually do it successfully, no matter what language you use.</p></div> </main> </div>  </div> </body></html>
